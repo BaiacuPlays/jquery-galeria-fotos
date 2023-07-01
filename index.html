@@ -3,27 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lista de Tarefas</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Jquery</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-  <h1>Lista de Tarefas</h1>
+  <header>
+    <h1>Galeria de Fotos</h1>
+    <button type="button">Nova Imagem +</button>
+    </header>
 
-  <form id="taskForm">
-    <input type="text" id="taskInput" placeholder="Digite uma tarefa...">
-    <button type="submit" id="addTaskButton">Adicionar</button>
-  </form>
-
-  <ol id="taskList"></ol>
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="script.js"></script>
-
+    <form>
+      <h2>Inserir nova Imagem</h2>
+      <input type="url" id="endereço-imagem-nova" required placeholder="URL da Imagem" />
+      <button type="submit">Adicionar</button>
+      <button type="reset" id="botao-cancelar">Cancelar</button>
+    </form>
+    <ul>
+        
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
-
-
-
 
 
 
